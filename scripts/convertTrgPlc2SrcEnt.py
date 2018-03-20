@@ -23,8 +23,6 @@ for line in sys.stdin:
     trg = L[2].split()
     align = L[3].split() 
 
-# get the mapping from src to raw_src
-
 # get mapping from BPE to noBPE
     map_bpe = {}
     if BPE==1:
